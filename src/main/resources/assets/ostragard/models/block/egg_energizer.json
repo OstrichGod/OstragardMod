@@ -1,0 +1,207 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "egg_energizer": "ostragard:blocks/egg_energizer"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "ShortBorderS",
+            "from": [ 0, 0, 12 ], 
+            "to": [ 8, 4, 16 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 8, 8, 12, 12 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ], "rotation": 180 },
+                "down": { "texture": "#egg_energizer", "uv": [ 8, 12, 16, 16 ] }
+            }
+        },
+        {
+            "name": "TallBorderW",
+            "from": [ 0, 0, 4 ], 
+            "to": [ 4, 8, 12 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 12, 8, 16, 16 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 16 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 12, 0, 16, 8 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 16 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 8, 8, 12, 16 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 12, 8, 16, 16 ] }
+            }
+        },
+        {
+            "name": "TallBorderE",
+            "from": [ 12, 0, 4 ], 
+            "to": [ 16, 8, 12 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 12, 0, 16, 8 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 16 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 12, 8, 16, 16 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 16 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 12, 0, 16, 8 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 12, 0, 16, 8 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Floor",
+            "from": [ 4, 0, 4 ], 
+            "to": [ 12, 2, 12 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 0, 8, 8, 10 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 0, 12, 8, 14 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 0, 8, 8, 16 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 0, 8, 8, 16 ] }
+            }
+        },
+        {
+            "name": "RodBase",
+            "from": [ 6, 2, 6 ], 
+            "to": [ 10, 6, 10 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Rod",
+            "from": [ 7, 6, 7 ], 
+            "to": [ 9, 12, 9 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 4, 0, 6, 6 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 6, 0, 8, 6 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 4, 0, 6, 6 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 6, 0, 8, 6 ] }
+            }
+        },
+        {
+            "name": "RodBaseTop",
+            "from": [ 6, 12, 6 ], 
+            "to": [ 10, 16, 10 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "ShortBorderS",
+            "from": [ 8, 0, 12 ], 
+            "to": [ 16, 4, 16 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ], "rotation": 180 },
+                "up": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 8, 12, 16, 16 ] }
+            }
+        },
+        {
+            "name": "ShortBorderN",
+            "from": [ 8, 0, 0 ], 
+            "to": [ 16, 4, 4 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 8, 9, 12, 13 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ], "rotation": 180 },
+                "down": { "texture": "#egg_energizer", "uv": [ 8, 12, 16, 16 ] }
+            }
+        },
+        {
+            "name": "ShortBorderN",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 8, 4, 4 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ], "rotation": 180 },
+                "south": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 12, 12, 8, 8 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 8, 8, 16, 12 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 8, 12, 16, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Tube2W",
+            "from": [ 1, 13, 7 ], 
+            "to": [ 6, 15, 9 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 0, 6, 5, 8 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 5, 6, 10, 8 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 9, 6, 11, 8 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 4, 6, 9, 8 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 2, 6, 7, 8 ] }
+            }
+        },
+        {
+            "name": "Tube1W",
+            "from": [ 1, 8, 7 ], 
+            "to": [ 3, 13, 9 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 8, 2, 10, 7 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 10, 0, 12, 5 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 10, 3, 12, 8 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 8, 3, 10, 8 ] }
+            }
+        },
+        {
+            "name": "Tube2E",
+            "from": [ 10, 13, 7 ], 
+            "to": [ 15, 15, 9 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 0, 11, 5, 13 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 0, 11, 2, 13 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 0, 11, 5, 13 ] },
+                "up": { "texture": "#egg_energizer", "uv": [ 0, 11, 5, 13 ] },
+                "down": { "texture": "#egg_energizer", "uv": [ 0, 11, 5, 13 ] }
+            }
+        },
+        {
+            "name": "Tube1E",
+            "from": [ 13, 8, 7 ], 
+            "to": [ 15, 13, 9 ], 
+            "faces": {
+                "north": { "texture": "#egg_energizer", "uv": [ 0, 11, 2, 16 ] },
+                "east": { "texture": "#egg_energizer", "uv": [ 0, 11, 2, 16 ] },
+                "south": { "texture": "#egg_energizer", "uv": [ 0, 11, 2, 16 ] },
+                "west": { "texture": "#egg_energizer", "uv": [ 0, 11, 2, 16 ] }
+            }
+        }
+    ]
+}

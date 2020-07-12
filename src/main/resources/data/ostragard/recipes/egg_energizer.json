@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gxo",
+    "gdo",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stone"
+    },
+    "d":
+    {
+      "item": "minecraft:diamond"
+    },
+    "g":
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    "o":
+    {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result":
+  {
+    "item": "ostragard:egg_energizer",
+    "count": 1
+  }
+}
